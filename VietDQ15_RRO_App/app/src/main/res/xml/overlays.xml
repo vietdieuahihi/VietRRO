@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Overlays string/config1 and string/config2 with the same resource. -->
+    <item
+        target="drawable/pepsi"
+        value="@drawable/cocacola" />
+    <item
+        target="string/this_is_a_pepsi_can"
+        value="@string/this_is_a_coca_cola_can"/>
+    <item
+        target="color/blue"
+        value="@color/red" />
+</overlay>
